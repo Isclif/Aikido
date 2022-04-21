@@ -1,0 +1,147 @@
+html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  min-height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+
+.navbar {
+    background-color: rgb(17, 16, 15);
+    padding: 1% 0;
+    font-size: 1.7em;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 72px;
+}
+.navbar-default .navbar-nav li a {
+    color: rgb(252, 247, 247); 
+    padding-top: 25px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: red;
+}
+.navbar-right{
+    padding-right: 321px;
+}
+/*
+#home {
+    background: url(image/9.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+   
+}*/
+
+.landing-text h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.landing-text h1{
+    font-size: 200%;
+}
+
+.padding{
+    padding: 10px;
+}
+
+#fixed {
+    background: url(13.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/*footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    padding: 5% 5% 10% 5%;
+}*/
+.fa{
+    font-size: 100%;
+    color: rgb(253, 250, 250);
+}
+
+.icon {
+    max-width: 200px;
+}
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: rgb(17, 16, 15);
+}
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+
+  .text-muted {
+    margin: 10px 0;
+ 
+  }
+  .container {
+      padding-top: 0px;
+  }
+
+  #Contact{
+    background-color: #000000;
+   
+  }
+
+  .page-header h3{
+      color: aliceblue;
+  }
+/**/
+  .previous{
+    position: absolute;
+    top: 50%;
+  }
+
+  .next{
+    position: absolute;
+    top: 20%;
+}
+
+.icons a{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icons a:hover{
+    color: red;
+}
+
+
+ 
